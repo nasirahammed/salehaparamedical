@@ -1,0 +1,251 @@
+body {
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+}
+
+.header-top {
+    background: url("../img/header-top-bg.jpg");
+    padding: 10px 0;
+}
+
+.header-top .left a {
+    clear: both;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.header-top .left a img {
+    border-right: 2px solid #ffffff;
+    float: left;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.header-top .left a h1 {
+    color: #ffffff;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+    margin: 0;
+    position: relative;
+    top: 8px;
+}
+
+.header-top .right ul {
+    clear: both;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.header-top .right ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+.header-top .right ul li:last-child {
+    margin-right: 0;
+}
+
+.header-top .right ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header-top .right ul li a span {
+    padding-left: 10px;
+}
+
+.header-top .top-links {
+    float: right;
+    margin-top: 20px;
+}
+
+.header-top .social-links {
+    float: right;
+    margin-top: 20px;
+}
+
+.header-top .social-links a {
+    border: 2px solid #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+}
+
+.header-top .social-links .fb-si a {
+    background: #3B5A9A;
+}
+
+.header-top .social-links .tw-si a {
+    background: #25A8E0;
+}
+
+.header-top .social-links .gp-si a {
+    background: #D54936;
+}
+
+.header-top .social-links .yt-si a {
+    background: #BB2025;
+}
+
+.header-top .social-links .li-si a {
+    background: #117BB8;
+}
+
+.navigation .navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+
+/*Starts Banner Css*/
+
+.banner {
+    position: relative;
+    top: -1px;
+}
+
+.banner .slider .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.banner .slider .owl-controls .owl-buttons div {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #003b63;
+    font-size: 0;
+}
+
+.banner .slider .owl-prev::before {
+    color: #fff;
+    content: "";
+    font-family: fontawesome;
+    font-size: 50px;
+    left: 10px;
+    position: absolute;
+    top: -35px;
+}
+
+.banner .slider .owl-next::before {
+    color: #fff;
+    content: "";
+    font-family: fontawesome;
+    font-size: 50px;
+    position: absolute;
+    right: 10px;
+    top: -35px;
+}
+
+.banner .slider .owl-prev::before {
+    left: 20px;
+    top: 150px;
+}
+
+.banner .slider .owl-next::before {
+    right: 20px;
+    top: 150px;
+}
+
+
+/*Ends Banner Css*/
+
+
+/*Starts Main Content*/
+
+.announcenoffer .tile {
+    background: #A0211B;
+    height: 350px;
+    margin-bottom: 100px;
+}
+
+.announcenoffer .tile h4 {
+    background: #923C3B;
+    color: #ffffff;
+    margin: 0;
+    padding: 15px;
+}
+
+.announcenoffer .tile.color1 {
+    background: #00838F;
+}
+
+.announcenoffer .tile.color1 h4 {
+    background: #00ACC1;
+}
+
+.announcenoffer .tile.color2 {
+    background: #D84315;
+}
+
+.announcenoffer .tile.color2 h4 {
+    background: #F4511E;
+}
+
+.announcenoffer .tile.color3 {
+    background: #1565C0;
+}
+
+.announcenoffer .tile.color3 h4 {
+    background: #1E88E5;
+}
+
+.announcenoffer .tile ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+}
+
+.announcenoffer .tile ul li p {
+    color: #ffffff;
+}
+
+.announcenoffer .tile ul li a {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    text-align: right;
+}
+
+.announcenoffer .tile ul li a {
+    color: #fff;
+}
+
+.announcenoffer .tile ul li a .fa {
+    padding-right: 5px;
+}
+
+.announcenoffer .tile.color2 ul li strong {
+    color: #000000;
+    display: block;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.announcenoffer .tile.color3 li {
+    background: rgba(0, 0, 0, 0) url("../img/imp-link-icon.png") no-repeat scroll 0 0;
+    height: 24px;
+    margin-bottom: 15px;
+    padding-left: 40px;
+}
+
+.announcenoffer .tile.color3 li a {
+    font-size: 16px;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/*Ends Main Content*/
