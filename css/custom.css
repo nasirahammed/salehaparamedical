@@ -165,10 +165,14 @@ body {
 
 /*Starts Main Content*/
 
+.main-content {
+    margin-bottom: 200px;
+}
+
 .announcenoffer .tile {
     background: #A0211B;
     height: 350px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .announcenoffer .tile h4 {
@@ -187,11 +191,11 @@ body {
 }
 
 .announcenoffer .tile.color2 {
-    background: #D84315;
+    background: #2e7d32;
 }
 
 .announcenoffer .tile.color2 h4 {
-    background: #F4511E;
+    background: #43a047;
 }
 
 .announcenoffer .tile.color3 {
@@ -245,6 +249,81 @@ body {
     font-size: 16px;
     text-align: left;
     text-decoration: none;
+}
+
+.college-courses {
+    background: url("../img/college-course-bg.jpg");
+    padding: 20px 0;
+}
+
+.college-courses .top h4,
+.college-courses .top p {
+    color: #ffffff;
+}
+
+.college-courses .top p {
+    margin: 8px 0;
+}
+
+.college-courses .center .c-title h4 {
+    background: #CB356B;
+    color: #fff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BD3F32, #CB356B);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: table;
+    font-style: italic;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 15px;
+    position: relative;
+}
+
+.college-courses .center ul {
+    clear: both;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.college-courses .center ul li {
+    background: rgba(0, 0, 0, 0) url("../img/imp-link-icon.png") no-repeat scroll 0 0;
+    color: #ffffff;
+    float: left;
+    font-size: 14px;
+    height: 24px;
+    margin: 0 1% 15px;
+    padding-left: 40px;
+    width: 48%;
+}
+
+.college-courses .center .job-opportunities {
+    margin: 35px 0;
+}
+
+.college-courses .center .job-opportunities p {
+    color: #ffffff;
+}
+
+.college-courses .bottom .offers-list {
+    background: #CB356B;
+    color: #fff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BD3F32, #CB356B);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
 }
 
 
