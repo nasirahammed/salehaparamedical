@@ -62,12 +62,12 @@ body {
 
 .header-top .top-links {
     float: right;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .header-top .social-links {
-    float: right;
-    margin-top: 20px;
+  float: right;
+  margin-top: 5px;
 }
 
 .header-top .social-links a {
@@ -109,6 +109,25 @@ body {
     margin-bottom: 0;
 }
 
+.download-btn {
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.download-btn a {
+  background: #CB356B url("../img/download-icon.png") no-repeat scroll 8px 5px;
+  border: 2px solid #ffffff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 20px 10px 50px;
+  text-decoration: none;
+}
 
 /*Starts Banner Css*/
 
@@ -159,6 +178,9 @@ body {
     top: 150px;
 }
 
+.banner .owl-controls.clickable {
+  display: none !important;
+}
 
 /*Ends Banner Css*/
 
@@ -166,7 +188,7 @@ body {
 /*Starts Main Content*/
 
 .main-content {
-    margin-bottom: 200px;
+  margin: 30px 0;
 }
 
 .announcenoffer .tile {
@@ -326,5 +348,131 @@ body {
     text-align: center;
 }
 
+.college-intro {
+    margin: 30px 0;
+}
+
+.college-intro h2 {
+    color: #1565c0;
+    margin: 0 0 20px;
+}
+
+.college-intro a {
+    color: #1565c0;
+}
+
+.college-intro a .fa {
+    padding-right: 5px;
+}
+
+.features {
+    margin: 30px 0;
+}
+
+.features .tile {
+    border-radius: 10px;
+    -webkit-box-shadow: 0 6px 6px -3px rgba(0, 0, 0, 0.2), 0 10px 14px 1px rgba(0, 0, 0, 0.14), 0 4px 18px 3px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 6px 6px -3px rgba(0, 0, 0, 0.2), 0 10px 14px 1px rgba(0, 0, 0, 0.14), 0 4px 18px 3px rgba(0, 0, 0, 0.12);
+    -ms-box-shadow: 0 6px 6px -3px rgba(0, 0, 0, 0.2), 0 10px 14px 1px rgba(0, 0, 0, 0.14), 0 4px 18px 3px rgba(0, 0, 0, 0.12);
+    -o-box-shadow: 0 6px 6px -3px rgba(0, 0, 0, 0.2), 0 10px 14px 1px rgba(0, 0, 0, 0.14), 0 4px 18px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 6px 6px -3px rgba(0, 0, 0, 0.2), 0 10px 14px 1px rgba(0, 0, 0, 0.14), 0 4px 18px 3px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+
+.features .tile h4 {
+    background: #1565c0;
+    color: #ffffff;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.features .tile.color1 h4 {
+    background: #00acc1;
+}
+
+.features .tile.color2 h4 {
+    background: #43a047;
+}
+
+.features .tile.color3 h4 {
+    background: #1e88e5;
+}
+
+.features .tile img {
+    width: 100%;
+}
+
 
 /*Ends Main Content*/
+
+
+/*Starts Footer */
+
+.footer .top {
+    background: #164e7c;
+    padding: 20px 0;
+}
+
+.footer .bottom {
+    background: #003664;
+    padding: 20px 0;
+}
+
+.footer .top .quick-links ul {
+    clear: both;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.footer .top .quick-links ul li {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 3%;
+    width: 30%;
+}
+
+.footer .top .quick-links ul li a {
+    color: #ffffff;
+    display: block;
+}
+
+.footer .top .cntc h4 {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 0 11px;
+}
+
+.footer .top .cntc p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer .bottom p {
+    color: #ffffff;
+}
+
+.footer .bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .bottom ul li {
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer .bottom ul li:last-child {
+    margin-right: 0;
+}
+
+.footer .bottom ul li a {
+    color: #ffffff;
+}
+
+
+/*Ends Footer */
